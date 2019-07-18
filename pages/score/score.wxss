@@ -1,0 +1,183 @@
+@import "../../icon/css/font-awesome.min.wxss";
+.flex-wrp {
+  display: flex;
+}
+.background{
+  width: 50%;
+  height: 50%;
+  position:fixed; 
+  z-index: -1;
+  top: 450rpx;
+  left: 25%;
+}
+.row1 {
+  display: flex;
+  z-index: 1;
+  padding-top: 20rpx;
+  padding-bottom: 10rpx;
+}
+.cols{
+  display: flex;
+}
+.row2 {
+  width: 100%;
+  display: flex;
+  margin-top: 30rpx;
+  height: 120rpx;
+  text-align: center;
+  vertical-align: middle;
+}
+.row3 {
+  display: flex;
+  z-index: 1;
+  padding-top: 450rpx;
+  padding-bottom: 10rpx;
+  padding-left: 5rpx;
+  padding-right: 5rpx;
+}
+
+button::after {
+  border: none;
+}
+
+button {
+  padding: 0rpx;
+}
+
+.fa-minus-square {
+  margin: 22rpx;
+  font-size: 35rpx;
+  height: 55rpx;
+}
+
+.fa-plus-square {
+  margin: 22rpx;
+  font-size: 35rpx;
+  height: 55rpx;
+}
+
+.amount {
+  margin: 15rpx;
+  font-size: 35rpx;
+  height: 70rpx;
+}
+
+
+
+text {
+  font-size: 50rpx;
+  margin: auto;
+}
+
+#red {
+  font-size: 60rpx;
+  color: rgba(250, 0, 0, 0.8);
+  margin-left: 220rpx;
+  margin-right: 10rpx;
+}
+
+#blue {
+  font-size: 60rpx;
+  color: rgba(0, 0, 250, 0.8);
+  margin-left: 10rpx;
+  margin-right: 8rpx;
+}
+
+#tower {
+  font-size: 60rpx;
+  color: rgb(150, 150, 150);
+  margin-left: 10rpx;
+}
+
+#orange {
+  font-size: 80rpx;
+  color: orange;
+  margin-left: 50rpx;
+  margin-right: 25rpx;
+}
+
+#green {
+  font-size: 80rpx;
+  color: green;
+  margin-left: 50rpx;
+  margin-right: 25rpx;
+}
+
+#purple {
+  font-size: 80rpx;
+  color: purple;
+  margin-left: 50rpx;
+  margin-right: 25rpx;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+}
+
+.redScore {
+  font-size: 85rpx;
+  color: white;
+  border-radius: 25rpx;
+  background-color: rgba(250, 0, 0, 0.6);
+  width: 50%;
+  height: 100%;
+  margin: 17px;
+}
+
+.blueScore {
+  font-size: 85rpx;
+  color: white;
+  border-radius: 25rpx;
+  background-color: rgba(0, 0, 250, 0.6);
+  width: 50%;
+  height: 100%;
+  margin: 17px;
+}
+
+.auto {
+  padding: 20rpx;
+}
+
+.warning {
+  font-size: 40rpx;
+  color: rgba(128, 128, 128, 0.945);
+  text-align: center;
+}
+.nav_bar{
+  display: flex;
+  padding: 10rpx;
+  font-size: 35rpx;
+  align-content: center;
+  background-color: white;
+  color: rgba(200, 200, 200);
+  border-radius: 8rpx;
+  bottom: 15rpx;
+  position: absolute;
+  width: 100%
+}
+.home{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.home_is_sel{
+  color: #d02222;
+}
+.game{
+  flex: 1;
+  display: flex;
+  justify-content: center
+}
+.game_is_sel{
+  color: #d02222;
+}
+.score{
+  flex: 1;
+  display: flex;
+  justify-content: center
+}
+.score_is_sel{
+  color: #d02222;
+}

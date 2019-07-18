@@ -1,0 +1,40 @@
+@import "../../icon/css/font-awesome.min.wxss";
+.main{
+  
+}
+.nav_bar{
+  display: flex;
+  padding: 10rpx;
+  font-size: 35rpx;
+  align-content: center;
+  background-color: white;
+  color: rgba(200, 200, 200);
+  border-radius: 8rpx;
+  bottom: 15rpx;
+  position: absolute;
+  width: 100%
+}
+.home{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.home_is_sel{
+  color: #d02222;
+}
+.game{
+  flex: 1;
+  display: flex;
+  justify-content: center
+}
+.game_is_sel{
+  color: #d02222;
+}
+.score{
+  flex: 1;
+  display: flex;
+  justify-content: center
+}
+.score_is_sel{
+  color: #d02222;
+}
