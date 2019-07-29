@@ -80,7 +80,6 @@
     <text class='blueScore'>{{blueS}}
     </text>
   </view>
-
   <view class='row3' style="flex-direction:row;">
     <view style='padding:30rpx;font-weight:bold;'>自动阶段</view>
     <radio-group style='padding:30rpx;' class="radio-group" bindchange="radioChange">
